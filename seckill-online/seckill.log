@@ -1,0 +1,8 @@
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@16ee6e4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@66af20, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@514af7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@b927fb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@58a80e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1b61f4a]
+Loading XML bean definitions from class path resource [spring-code.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@15d943d: startup date [Fri Dec 29 15:17:37 CST 2017]; root of context hierarchy
+No MyBatis mapper was found in '[com.fq.mapper]' package. Please check your configuration.
+{dataSource-1} inited
+Closing org.springframework.context.support.GenericApplicationContext@15d943d: startup date [Fri Dec 29 15:17:37 CST 2017]; root of context hierarchy
+{dataSource-1} closed

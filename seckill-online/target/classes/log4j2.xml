@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 每隔60秒检查配置是否更新，若更新则重载配置 
+status 指定 log4j2 本身体的日志级别，可以是 All < Trace < Debug < Info < Warn < Error < Fatal < OFF
+-->
+<Configuration status="OFF" monitorInterval="60">
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+	     	<PatternLayout pattern="%d %-5p [%t] %C{2} (%C:%L) - %m%n"/>
+	   </Console>
+		<RollingFile name="RollingFile" fileName="seckill.log"
+			filePattern="${sys:catalina.home}/Logs/LapSim/$${date:yyyy-MM}/%d{yyyy-MM-dd}-%i.log">
+			<PatternLayout>
+			    <!-- <Pattern>[%-5p] %d{yyyy-MM-dd HH:mm:ss} (%C:%L) - %m%n</Pattern> -->
+			    <PatternLayout pattern="%d %-5p [%t] %C{2} (%C:%L) - %m%n"/>
+			</PatternLayout>
+			<Policies>
+			    <TimeBasedTriggeringPolicy />
+			    <SizeBasedTriggeringPolicy size="10MB"/>
+				</Policies>
+		</RollingFile>
+ 	</Appenders>
+ 	<Loggers>
+ 		<logger name="com.corp.proj.mapper" level="Info" additivity="false">  
+            <appender-ref ref="Console"/>  
+        </logger>        
+        <!-- 对所有类 -->
+        <Root level="Info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="RollingFile"/>
+        </Root>
+	</Loggers>
+</Configuration>
