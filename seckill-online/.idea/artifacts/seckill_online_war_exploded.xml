@@ -40,6 +40,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-oxm:4.3.12.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.3.12.RELEASE" />
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.25" />
+          <element id="library" level="project" name="Maven: net.sf.oval:oval:1.85" />
         </element>
       </element>
       <element id="directory" name="META-INF">

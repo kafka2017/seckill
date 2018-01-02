@@ -1,6 +1,6 @@
 package com.fq.service;
-
-import java.util.Map;
+import com.common.utils.ResultJson;
+import com.fq.model.CodeImage;
 
 /**
  * @title : seckill-online
@@ -18,6 +18,6 @@ public interface RedisService {
      * @return
      * @date:2017/12/28 10:48
      */
-    public void saveIdenCode(Map<String,String> map);
+    public ResultJson<Integer> saveIdenCode(CodeImage codeImage);
 
 }

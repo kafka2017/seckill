@@ -12,6 +12,7 @@ public enum CodeEnum {
 	
 	illegal_para(1000, "非法参数"),
 	not_exist(1001, "数据不存在"),
+	often(1002,"请求过于频繁，请稍候重试"),
 	login_timeout(-100,"登录超时");
 	
 	

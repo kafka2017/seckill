@@ -4,6 +4,9 @@ import com.alibaba.druid.util.StringUtils;
 import com.common.enumUtil.CodeEnum;
 import com.common.utils.ImageCode;
 import com.common.utils.ResultJson;
+import com.fq.model.CodeImage;
+import com.fq.service.RedisService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -27,6 +30,9 @@ import java.util.Map;
 @RestController
 @RequestMapping(value="/code")
 public class CodeController {
+
+    @Autowired
+    private RedisService redisService;
 
     /**
      * @description: 生成验证码
@@ -64,7 +70,7 @@ public class CodeController {
      * @date:2017/12/28 15:25
      */
     @RequestMapping(value="/checkImageCode")
-    private ResultJson<Boolean> checkImageCode(HttpServletRequest request){
+    private ResultJson<Integer> checkImageCode(HttpServletRequest request){
         String checkCode = request.getParameter("checkCode");
         HttpSession session = request.getSession();
         Object cko = session.getAttribute("simpleCaptcha") ; //验证码对象
@@ -87,6 +93,16 @@ public class CodeController {
             return ResultJson.failed(CodeEnum.error.code(), "验证码已失效，请重新输入！");
         }else {
             session.removeAttribute("simpleCaptcha");
+
+            //将验证码存入redis数据库中
+            CodeImage ci = new CodeImage();
+            ci.setTimeStamp(System.currentTimeMillis());
+            //TODO 这是一个写死的会员ID，等待修改成动态
+            ci.setMenberId(1);
+
+            ci.setCode(checkCode);
+            redisService.saveIdenCode(ci);
+
             return ResultJson.success(CodeEnum.error.code(), "验证通过");
         }
     }
