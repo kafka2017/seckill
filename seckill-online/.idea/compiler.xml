@@ -11,7 +11,40 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="quick-activemq" target="1.7" />
+      <module name="quick-batch" target="1.8" />
+      <module name="quick-es" target="1.8" />
+      <module name="quick-exception" target="1.6" />
+      <module name="quick-github-oauth" target="1.8" />
+      <module name="quick-img2txt" target="1.8" />
+      <module name="quick-jdbc" target="1.8" />
+      <module name="quick-jpa" target="1.8" />
+      <module name="quick-jsp" target="1.8" />
+      <module name="quick-log" target="1.8" />
+      <module name="quick-logback" target="1.8" />
+      <module name="quick-modules" target="1.8" />
+      <module name="quick-modules-dao" target="1.8" />
+      <module name="quick-modules-service1" target="1.8" />
+      <module name="quick-modules-service2" target="1.8" />
+      <module name="quick-multi-data" target="1.8" />
+      <module name="quick-mybatis-druid" target="1.8" />
+      <module name="quick-oauth2" target="1.5" />
+      <module name="quick-oauth2-server" target="1.7" />
+      <module name="quick-okhttp" target="1.7" />
+      <module name="quick-oss" target="1.6" />
+      <module name="quick-package-assembly" target="1.8" />
+      <module name="quick-package-assembly-multi-env" target="1.8" />
+      <module name="quick-rabbitmq" target="1.6" />
+      <module name="quick-redies" target="1.8" />
+      <module name="quick-rocketmq" target="1.8" />
+      <module name="quick-simhash" target="1.5" />
+      <module name="quick-spark" target="1.8" />
+      <module name="quick-swagger" target="1.8" />
+      <module name="quick-thread" target="1.8" />
+      <module name="quick-tika" target="1.8" />
+      <module name="quick-wx-api" target="1.8" />
       <module name="seckill-online" target="1.6" />
+      <module name="spring-boot-quick" target="1.5" />
       <module name="spring-context-5" target="1.6" />
     </bytecodeTargetLevel>
   </component>

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
+    <file type="web" url="file://$PROJECT_DIR$/../spring-boot-quick/quick-jsp" />
+    <file type="web" url="file://$PROJECT_DIR$/../spring-boot-quick/quick-wx-api" />
     <file type="web" url="file://$PROJECT_DIR$/../springcontext5" />
   </component>
   <component name="MavenProjectsManager">
@@ -9,7 +11,44 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../springcontext5/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../spring-boot-quick/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/qucik-activemq/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-ElasticSearch/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-batch/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-exception/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-log/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-logback/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-modules/dao/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-modules/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-modules/service1/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-modules/service2/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-multi-data/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-mybatis-druid/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-oauth2/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-oauth2/quick-github-oauth/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-oauth2/quick-oauth2-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-okhttp/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-oss/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-package-assembly-multi-env/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-package-assembly/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-redies/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-rocketmq/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-simhash/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-spark/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-thread/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-tika/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-wx-api/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

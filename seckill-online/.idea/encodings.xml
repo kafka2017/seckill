@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/qucik-activemq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-ElasticSearch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-batch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-exception" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-img2txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-jdbc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-log" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-logback" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-modules" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-modules/dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-modules/service1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-modules/service2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-multi-data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-mybatis-druid" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-oauth2/quick-github-oauth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-oauth2/quick-oauth2-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-oss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-package-assembly" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-package-assembly-multi-env" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-redies" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-rocketmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-spark" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-swagger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-tika" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-quick/quick-wx-api" charset="UTF-8" />
+  </component>
+</project>

@@ -45,15 +45,15 @@ public class RedisServiceImpl implements RedisService {
         //key : codeImage_会员Id
         String key = "codeImage_"+codeImage.getMenberId();
 
-        if(hashOperations.get(key,"timeStamp")!=null){
-
-            Long saveTie = Long.parseLong(hashOperations.get(key,"timeStamp")+"");
-            boolean flag = true;//calTimeStamp(saveTie,codeImage.getTimeStamp());
-
-            if(!flag){
-                return ResultJson.failed(CodeEnum.often.code(),CodeEnum.often.msg());
-            }
-        }
+//        if(hashOperations.get(key,"timeStamp")!=null){
+//
+//            Long saveTie = Long.parseLong(hashOperations.get(key,"timeStamp")+"");
+//            boolean flag = calTimeStamp(saveTie,codeImage.getTimeStamp());
+//
+//            if(!flag){
+//                return ResultJson.failed(CodeEnum.often.code(),CodeEnum.often.msg());
+//            }
+//        }
 
         hashOperations.put(key,"memberId",codeImage.getMenberId()+"");//会员id
         hashOperations.put(key,"code",codeImage.getCode());//验证码

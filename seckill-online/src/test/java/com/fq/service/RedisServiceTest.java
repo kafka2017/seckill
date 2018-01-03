@@ -32,7 +32,7 @@ public class RedisServiceTest extends SpringBaseTest {
         ExecutorService es = Executors.newFixedThreadPool(3);
         long s = System.currentTimeMillis();
         //模拟10000个线程
-        for(int i=0;i<10000;i++){
+        for(int i=0;i<10;i++){
 
             final int index = i;
 
@@ -47,14 +47,14 @@ public class RedisServiceTest extends SpringBaseTest {
                         ResultJson<Integer> rs = redisService.saveIdenCode(ci);
                         System.out.println(JSONHelper.toString(rs));
                         try {
-                            Thread.sleep(20);
+                            Thread.sleep(2000);
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
                 }
             });
 
-            Thread.sleep(20);
+            Thread.sleep(2000);
         }
         long e = System.currentTimeMillis();
         System.out.println("花费时间："+(e-s)/1000);

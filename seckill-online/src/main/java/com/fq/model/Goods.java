@@ -18,6 +18,9 @@ public class Goods implements Serializable {
      */
     private String orderNo;
 
+    /**
+     * 订单号
+     */
     private Integer productId;
 
     /**
@@ -35,7 +38,20 @@ public class Goods implements Serializable {
      */
     private Integer gNum;
 
+    /**
+     * 创建时间
+     */
     private String createOn;
+
+    /**
+     * 访问者ip
+     */
+    private String ip;
+
+    /**
+     * 当前时间戳
+     */
+    private Long timeStamp;
 
     public Integer getId() {
         return id;
@@ -91,5 +107,21 @@ public class Goods implements Serializable {
 
     public void setCreateOn(String createOn) {
         this.createOn = createOn;
+    }
+
+    public String getIp() {
+        return ip;
+    }
+
+    public void setIp(String ip) {
+        this.ip = ip;
+    }
+
+    public Long getTimeStamp() {
+        return timeStamp;
+    }
+
+    public void setTimeStamp(Long timeStamp) {
+        this.timeStamp = timeStamp;
     }
 }

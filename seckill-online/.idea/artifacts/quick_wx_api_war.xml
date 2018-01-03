@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="quick-wx-api:war">
+    <output-path>$PROJECT_DIR$/../spring-boot-quick/quick-wx-api/target</output-path>
+    <root id="archive" name="quick-wx-api-1.0.war">
+      <element id="artifact" artifact-name="quick-wx-api:war exploded" />
+    </root>
+  </artifact>
+</component>

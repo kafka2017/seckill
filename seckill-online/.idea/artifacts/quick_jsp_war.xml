@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="quick-jsp:war">
+    <output-path>$PROJECT_DIR$/../spring-boot-quick/quick-jsp/target</output-path>
+    <root id="archive" name="quick-jsp-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="quick-jsp:war exploded" />
+    </root>
+  </artifact>
+</component>

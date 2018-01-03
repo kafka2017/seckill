@@ -1,5 +1,8 @@
 package com.fq.service;
 
+import com.common.utils.ResultJson;
+import com.fq.model.Goods;
+
 /**
  * @title : seckill-online
  * @description: 秒杀业务
@@ -16,7 +19,7 @@ public interface SeckillService {
      * @return
      * @date:2017/12/28 10:49
      */
-    public boolean saveGoods();
+    public ResultJson<Integer> saveGoods(Goods goods);
 
     /**
      * @description: 取消订单
@@ -25,6 +28,6 @@ public interface SeckillService {
      * @return
      * @date:2017/12/28 10:55
      */
-    public boolean cancelGoods();
+    public ResultJson<Integer> cancelGoods();
 
 }
