@@ -48,7 +48,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SeckillServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SeckillServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fq/service/impl/SeckillServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="173">
@@ -59,6 +59,16 @@
                 <element signature="e#2979#2980#0" expanded="true" />
                 <element signature="e#3006#3007#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -178,7 +188,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fq/controller/SeckillController.java" />
         <option value="$PROJECT_DIR$/../spring-boot-quick/quick-img2txt/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-boot-quick/quick-img2txt/src/main/java/com/quick/verificationCode/VerificationCodeService.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/fq/mapper/GoodsMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fq/mapper/StockMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fq/mapper/StockMapper.xml" />
@@ -192,6 +201,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/common/enumUtil/CodeEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fq/service/impl/SeckillServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/fq/service/SeckillServiceTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -1209,7 +1219,7 @@
       <workItem from="1514943464515" duration="13947000" />
       <workItem from="1514962476950" duration="11441000" />
       <workItem from="1515028864793" duration="13557000" />
-      <workItem from="1515051743130" duration="5409000" />
+      <workItem from="1515051743130" duration="6026000" />
     </task>
     <servers />
   </component>
@@ -1246,7 +1256,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109820000" />
+    <option name="totallyTimeSpent" value="110437000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1501,13 +1511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/fq/service/RedisServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
@@ -1688,11 +1691,11 @@
         <state relative-caret-position="260">
           <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
           <folding>
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="false" />
+            <element signature="e#383#384#0" expanded="false" />
+            <element signature="e#417#418#0" expanded="false" />
+            <element signature="e#468#469#0" expanded="false" />
+            <element signature="e#1060#1061#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1739,6 +1742,14 @@
             <element signature="e#2979#2980#0" expanded="true" />
             <element signature="e#3006#3007#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,6 @@
 target  # 过滤整个target 文件
 *.iml
 *.log
+*.class
 lib
 .idea
