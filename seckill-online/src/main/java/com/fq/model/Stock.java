@@ -13,13 +13,25 @@ public class Stock implements Serializable {
 
     private Integer id;
 
+    /**
+     * 商品id
+     */
     private Integer productId;
 
-    private Integer deportId;
+    /**
+     * 仓库id
+     */
+    private Integer depotId;
 
+    /**
+     * 总价格
+     */
     private Double sPrice;
 
-    private Integer sSum;
+    /**
+     * 总库存
+     */
+    private Integer sNum;
 
     public Integer getId() {
         return id;
@@ -37,12 +49,12 @@ public class Stock implements Serializable {
         this.productId = productId;
     }
 
-    public Integer getDeportId() {
-        return deportId;
+    public Integer getDepotId() {
+        return depotId;
     }
 
-    public void setDeportId(Integer deportId) {
-        this.deportId = deportId;
+    public void setDepotId(Integer depotId) {
+        this.depotId = depotId;
     }
 
     public Double getsPrice() {
@@ -53,11 +65,11 @@ public class Stock implements Serializable {
         this.sPrice = sPrice;
     }
 
-    public Integer getsSum() {
-        return sSum;
+    public Integer getsNum() {
+        return sNum;
     }
 
-    public void setsSum(Integer sSum) {
-        this.sSum = sSum;
+    public void setsNum(Integer sNum) {
+        this.sNum = sNum;
     }
 }

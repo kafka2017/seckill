@@ -24,7 +24,7 @@ public class SeckillServiceTest extends SpringBaseTest{
 
     @Test
     public void saveGoods() throws  Exception{
-        //for(int i=0;i<10;i++){
+        for(int i=0;i<11;i++){
             Goods goods = new Goods();
             goods.setIp("127.0.0.1");
             goods.setgNum(1);
@@ -34,8 +34,7 @@ public class SeckillServiceTest extends SpringBaseTest{
             goods.setTimeStamp(System.currentTimeMillis());
             ResultJson<Integer> rs = seckillService.saveGoods(goods);
             System.out.println(JSONHelper.toString(rs));
-       // }
-
+        }
     }
 
 

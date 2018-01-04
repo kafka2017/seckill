@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.atomic.AtomicLong;
 
 /**
  * @title : seckill-online
@@ -26,11 +27,31 @@ public class SeckillServiceImpl implements SeckillService {
     @Autowired
     private RedisTemplate redisTemplate;
 
+    private static AtomicLong atomicLong = new AtomicLong(0);
+
+    //限制请求次数
+    private static Integer limitCount = 10;
+
+    /**
+     * 请求总数
+     * @return
+     */
+    public static long requestCount(){
+        return atomicLong.incrementAndGet();
+    }
+
+
     @Override
     public ResultJson<Integer> saveGoods(Goods goods) {
 
         if (goods == null) {
             return ResultJson.failed();
+        }
+
+        long reCount = requestCount();
+
+        if(reCount>=limitCount){
+            return ResultJson.failed(CodeEnum.snatched_out.code(),CodeEnum.snatched_out.msg());
         }
 
         HashOperations<Object,Object,Object> m =  redisTemplate.opsForHash();
@@ -61,11 +82,15 @@ public class SeckillServiceImpl implements SeckillService {
         if(m.get(blacklistKey,"memberId")!=null){
             return ResultJson.failed(CodeEnum.black_user.code(),CodeEnum.black_user.msg());
         }
-
+        //添加请求数
         m.put(key,"memberId",goods.getMemberId()+"");
         m.put(key,"ip",goods.getIp());
         m.put(key,"timeStamp",goods.getTimeStamp()+"");
         Long l = m.increment(key,"pageView",1);
+
+
+
+
 
         if(l>0){
             return ResultJson.success();

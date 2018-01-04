@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/../spring-boot-quick/quick-ElasticSearch/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-boot-quick/quick-batch/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-boot-quick/quick-exception/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-quick/quick-img2txt/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-boot-quick/quick-jdbc/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-boot-quick/quick-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-boot-quick/quick-jsp/pom.xml" />
